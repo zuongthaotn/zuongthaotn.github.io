@@ -1,326 +1,327 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Zuong Thao Portfolio</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
-    <link rel="preload" as="style"
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"/>
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"
-          media="print" onload="this.media='all'"/>
-    <noscript>
-        <link rel="stylesheet"
-              href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"/>
-    </noscript>
-    <link href="css/font-awesome/css/all.min.css?ver=1.2.1" rel="stylesheet">
-    <link href="css/mdb.min.css?ver=1.2.1" rel="stylesheet">
-    <link href="css/aos.css?ver=1.2.1" rel="stylesheet">
-    <link href="css/main.css?ver=1.2.1" rel="stylesheet">
-    <noscript>
-        <style type="text/css">
-            [data-aos] {
-                opacity: 1 !important;
-                transform: translate(0) scale(1) !important;
-            }
-        </style>
-    </noscript>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zuong Thao - Curriculum Vitae</title>
+    <meta name="description" content="Professional Resume of Zuong Thao">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/cv.css">
 </head>
-<body class="bg-light" id="top">
-<header class="d-print-none">
-    <div class="container text-center text-lg-left">
-        <div class="pt-4 clearfix">
-            <h1 class="site-title mb-0">Zuong Thao</h1>
-            <div class="site-nav">
-                <nav role="navigation">
-                    <ul class="nav justify-content-center">
-                        <li class="nav-item"><a class="nav-link" href="#about" title="About"><span class="menu-title">About</span></a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="#skills" title="Skills"><span class="menu-title">Skills</span></a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="#experience" title="Experience"><span
-                                class="menu-title">Experience</span></a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="#education" title="Education"><span
-                                class="menu-title">Education</span></a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
+
+<body>
+
+    <!-- Controls -->
+    <div class="controls">
+        <button class="btn btn-secondary" id="themeToggle" title="Toggle Theme">
+            <i class="fas fa-moon"></i>
+        </button>
+        <button class="btn" id="downloadBtn">
+            <i class="fas fa-download"></i> Download CV
+        </button>
     </div>
-</header>
-<div class="page-content">
-    <div class="container">
-        <div class="resume-container">
-            <div class="shadow-1-strong bg-white my-5" id="intro">
-                <div class="bg-info text-white">
-                    <div class="cover bg-image"><img src="images/header-background.jpg"/>
-                        <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);backdrop-filter: blur(2px);">
-                            <div class="text-center p-5">
-                                <div class="avatar p-1"><img class="img-thumbnail shadow-2-strong"
-                                                             src="images/avatar.jpg" width="160" height="160"/></div>
-                                <div class="header-bio mt-3">
-                                    <div data-aos="zoom-in" data-aos-delay="0">
-                                        <h2 class="h1">Zuong Thao</h2>
-                                        <p>Magento Developer, Data Engineer, Quant Trader</p>
-                                    </div>
-                                    <div class="d-print-none"><a
-                                            class="btn btn-outline-light btn-lg shadow-sm mt-1 me-3"
-                                            href="/Duong-Thao-CV.pdf" data-aos="fade-right" data-aos-delay="700">Download
-                                        CV</a><a class="btn btn-info btn-lg shadow-sm mt-1" href="https://discord.com/users/zuongthao"
-                                                 data-aos="fade-left" data-aos-delay="700">Discord</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
+    <!-- Resume Content -->
+    <div class="resume-container" id="resume">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <img src="images/avatar.jpg" alt="Zuong Thao" class="profile-img">
+
+            <div class="sidebar-section">
+                <h3 class="sidebar-title">Contact</h3>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:zuongthao.tn@gmail.com">zuongthao.tn@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <a href="#">+84 988 861 203</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Hanoi, Vietnam</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-calendar"></i>
+                    <span>Age: 35 (1990)</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/zuong-thao/">linkedin.com/in/zuong-thao</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <a href="https://github.com/zuongthaotn">github.com/zuongthaotn</a>
                 </div>
             </div>
-            <div class="shadow-1-strong bg-white my-5 p-5" id="about">
-                <div class="about-section">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h2 class="h2 fw-light mb-4">About Me</h2>
-                            <p>Hello! I’m Zuong Thao from Viet Nam. I have 10 years of experience working on Magento platform.
-                                I also work as a Data Engineer with Python & SQL program languages and ETL, warehousing & data management tools as well.</p>
-                            <p>Feel free to contact me to discuss more about your idea, hope to work together!</p>
-                            <p>HackerRank Certificates</p>
-                            <a href="https://www.hackerrank.com/certificates/47412074fb8f">https://www.hackerrank.com/certificates/47412074fb8f</a>
-                        </div>
-                        <div class="col-md-5 offset-lg-1">
-                            <div class="row mt-2">
-                                <h2 class="h2 fw-light mb-4">Bio</h2>
-                                <div class="col-sm-5">
-                                    <div class="pb-2 fw-bolder"><i class="far fa-calendar-alt pe-2 text-muted"
-                                                                   style="width:24px;opacity:0.85;"></i> Age
-                                    </div>
-                                </div>
-                                <div class="col-sm-7">
-                                    <div class="pb-2">34</div>
-                                </div>
-                                <div class="col-sm-5">
-                                    <div class="pb-2 fw-bolder"><i class="far fa-envelope pe-2 text-muted"
-                                                                   style="width:24px;opacity:0.85;"></i> Email
-                                    </div>
-                                </div>
-                                <div class="col-sm-7">
-                                    <div class="pb-2">zuongthao.tn@gmail.com</div>
-                                </div>
-                                <div class="col-sm-5">
-                                    <div class="pb-2 fw-bolder"><i class="fab fa-skype pe-2 text-muted"
-                                                                   style="width:24px;opacity:0.85;"></i> Skype
-                                    </div>
-                                </div>
-                                <div class="col-sm-7">
-                                    <div class="pb-2">zuongthao</div>
-                                </div>
-                                <div class="col-sm-5">
-                                    <div class="pb-2 fw-bolder"><i class="fas fa-phone pe-2 text-muted"
-                                                                   style="width:24px;opacity:0.85;"></i> Phone
-                                    </div>
-                                </div>
-                                <div class="col-sm-7">
-                                    <div class="pb-2">+84-3622-13116</div>
-                                </div>
-                                <div class="col-sm-5">
-                                    <div class="pb-2 fw-bolder"><i class="fas fa-map-marker-alt pe-2 text-muted"
-                                                                   style="width:24px;opacity:0.85;"></i> Address
-                                    </div>
-                                </div>
-                                <div class="col-sm-7">
-                                    <div class="pb-2">27A Khuat Duy Tien, Thanh Xuan, Ha Noi, Viet Nam</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
+            <div class="sidebar-section">
+                <h3 class="sidebar-title">Technical Skills</h3>
+                <div class="skills-list">
+                    <span class="skill-tag">Python (Pandas, Numpy)</span>
+                    <span class="skill-tag">Data Engineering (ETL, Airflow, DBT)</span>
+                    <span class="skill-tag">Big Data (Spark, BigQuery)</span>
+                    <span class="skill-tag">Machine Learning (Scikit-learn, XGBoost)</span>
+                    <span class="skill-tag">PHP, Magento 2, Laravel</span>
+                    <span class="skill-tag">Database(MySQL, Postgres, MongoDB)</span>
+                    <span class="skill-tag">AWS (EC2, S3, EBS)</span>
+                    <span class="skill-tag">Docker / Linux / Ubuntu</span>
+                    <span class="skill-tag">Visualization (PowerBI, Matplotlib)</span>
+                    <span class="skill-tag">Workflow skills(Trello, Jira, Slack, Git)</span>
                 </div>
             </div>
-            <div class="shadow-1-strong bg-white my-5 p-5" id="skills">
-                <div class="skills-section">
-                    <h2 class="h2 fw-light mb-4">Professional Skills</h2>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="mb-3"><span class="fw-bolder">HTML</span>
-                                <div class="progress my-2 rounded" style="height: 20px">
-                                    <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right"
-                                         data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 90%;"
-                                         aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">Master
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mb-3"><span class="fw-bolder">CSS</span>
-                                <div class="progress my-2 rounded" style="height: 20px">
-                                    <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right"
-                                         data-aos-delay="200" data-aos-anchor=".skills-section" style="width: 85%"
-                                         aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">Expert
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mb-3"><span class="fw-bolder">JavaScript</span>
-                                <div class="progress my-2 rounded" style="height: 20px">
-                                    <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right"
-                                         data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 75%"
-                                         aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Advance
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mb-3"><span class="fw-bolder">Python</span>
-                                <div class="progress my-2 rounded" style="height: 20px">
-                                    <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right"
-                                         data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 55%"
-                                         aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">Intermediate
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mb-3"><span class="fw-bolder">Mysql</span>
-                                <div class="progress my-2 rounded" style="height: 20px">
-                                    <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right"
-                                         data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 75%"
-                                         aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Advance
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mb-3"><span class="fw-bolder">Machine Learning</span>
-                                <div class="progress my-2 rounded" style="height: 20px">
-                                    <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right"
-                                         data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 55%"
-                                         aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">Intermediate
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="mb-3"><span class="fw-bolder">Magento 2</span>
-                                <div class="progress my-2 rounded" style="height: 20px">
-                                    <div class="progress-bar bg-secondary" role="progressbar" data-aos="zoom-in-right"
-                                         data-aos-delay="400" data-aos-anchor=".skills-section" style="width: 95%"
-                                         aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">Expert
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mb-3"><span class="fw-bolder">PHP</span>
-                                <div class="progress my-2 rounded" style="height: 20px">
-                                    <div class="progress-bar bg-secondary" role="progressbar" data-aos="zoom-in-right"
-                                         data-aos-delay="400" data-aos-anchor=".skills-section" style="width: 90%"
-                                         aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">Expert
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mb-3"><span class="fw-bolder">Wordpress</span>
-                                <div class="progress my-2 rounded" style="height: 20px">
-                                    <div class="progress-bar bg-secondary" role="progressbar" data-aos="zoom-in-right"
-                                         data-aos-delay="500" data-aos-anchor=".skills-section" style="width: 85%"
-                                         aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">Expert
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mb-3"><span class="fw-bolder">Coding API</span>
-                                <div class="progress my-2 rounded" style="height: 20px">
-                                    <div class="progress-bar bg-secondary" role="progressbar" data-aos="zoom-in-right"
-                                         data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 75%"
-                                         aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Expert
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mb-3"><span class="fw-bolder">Apache, Nginx, Elasticsearch, RabitMQ, Redis, AWS, Vanish</span>
-                                <div class="progress my-2 rounded" style="height: 20px">
-                                    <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right"
-                                         data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 55%"
-                                         aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">Intermediate
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
+            <div class="sidebar-section">
+                <h3 class="sidebar-title">Languages</h3>
+                <div class="language-item">
+                    <span>Vietnamese</span>
+                    <span>Native</span>
+                </div>
+                <div class="language-item">
+                    <span>English</span>
+                    <span>Intermediate</span>
                 </div>
             </div>
-            <div class="shadow-1-strong bg-white my-5 p-5" id="experience">
-                <div class="work-experience-section">
-                    <h2 class="h2 fw-light mb-4">Work Experience</h2>
-                    <div class="timeline">
-                        <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="0">
-                            <div class="timeline-head px-4 pt-3">
-                                <div class="h5">Data Engineer (Self Learning)</div>
-                            </div>
-                            <div class="timeline-body px-4 pb-4">
-                                <div class="text-muted text-small mb-3">Jun, 2024 - Present</div>
-                            </div>
-                        </div>
-                        <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="200">
-                            <div class="timeline-head px-4 pt-3">
-                                <div class="h5">Magento 2 Developer - Damda Korea</div>
-                            </div>
-                            <div class="timeline-body px-4 pb-4">
-                                <div class="text-muted text-small mb-3">Jun, 2022 - Dec, 2023</div>
-                            </div>
-                        </div>
-                        <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="200">
-                            <div class="timeline-head px-4 pt-3">
-                                <div class="h5">Quantitative Trading Developer</div>
-                            </div>
-                            <div class="timeline-body px-4 pb-4">
-                                <div class="text-muted text-small mb-3">Jan, 2022 - Jun, 2022</div>
-                            </div>
-                        </div>
-                        <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="200">
-                            <div class="timeline-head px-4 pt-3">
-                                <div class="h5">Freelancer Magento 2 (Backend) Developer</div>
-                            </div>
-                            <div class="timeline-body px-4 pb-4">
-                                <div class="text-muted text-small mb-3">May, 2020 - Dec, 2021</div>
-                            </div>
-                        </div>
-                        <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="200">
-                            <div class="timeline-head px-4 pt-3">
-                                <div class="h5">Magento 2 Developer <span class="text-muted h6">at Mageworld.com</span>
-                                </div>
-                            </div>
-                            <div class="timeline-body px-4 pb-4">
-                                <div class="text-muted text-small mb-3">Jul, 2019 - Apr, 2020</div>
-                            </div>
-                        </div>
-                        <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="200">
-                            <div class="timeline-head px-4 pt-3">
-                                <div class="h5">Magento 2 Developer <span class="text-muted h6">at Magestore.com</span>
-                                </div>
-                            </div>
-                            <div class="timeline-body px-4 pb-4">
-                                <div class="text-muted text-small mb-3">Feb, 2016 - Jun, 2019</div>
-                            </div>
-                        </div>
-                    </div>
+
+            <div class="sidebar-section">
+                <h3 class="sidebar-title">Certifications</h3>
+                <div class="item-description">
+                    <p><strong>HackerRank Certificates</strong><br>SQL, Python, API<br><a
+                            href="https://www.hackerrank.com/certificates/e29ebbf4f40d" style="color: inherit;">View
+                            Certificate</a></p>
                 </div>
             </div>
-            <div class="shadow-1-strong bg-white my-5 p-5" id="education">
-                <div class="education-section">
-                    <h2 class="h2 fw-light mb-4">Education</h2>
-                    <div class="timeline">
-                        <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="0">
-                            <div class="timeline-head px-4 pt-3">
-                                <div class="h5">Information Technology <span class="text-muted h6">from The VNU University of Engineering and Technology (VNU-UET)</span>
-                                </div>
-                            </div>
-                            <div class="timeline-body px-4 pb-4">
-                                <div class="text-muted text-small mb-3">20008 - 2012</div>
-                            </div>
-                        </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="header">
+                <h1 class="name">Dương Thao</h1>
+                <h2 class="title">Magento Developer, Data Analytics Engineer & Quantitative Trader</h2>
+            </header>
+
+            <section class="section">
+                <h3 class="section-title"><i class="fas fa-user"></i> Profile</h3>
+                <p>Experienced Backend Developer with over 12 years in software development, expert in Magento 2
+                    ecosystem and PHP.
+                    Recently expanded expertise into Data Analytics Engineering, specializing in building ETL pipelines,
+                    Data Warehousing (BigQuery), and Machine Learning.
+                    Proven ability to deliver scalable e-commerce solutions and data-driven insights.</p>
+            </section>
+
+            <section class="section">
+                <h3 class="section-title"><i class="fas fa-briefcase"></i> Experience</h3>
+                <div class="experience-item">
+                    <div class="item-header">
+                        <div class="item-title">Freelance Developer</div>
+                        <div class="item-date">Sep 2022 - Present</div>
+                    </div>
+                    <div class="item-subtitle">fiverr</div>
+                    <div class="item-description">
+                        <ul>
+                            <li>Build quantitative trading strategies using Python</li>
+                            <li>Crawl data from any websites</li>
+                            <li>Develop, maintain and fix bugs for Magento websites.</li>
+                        </ul>
                     </div>
                 </div>
-            </div>
-        </div>
+                <div class="experience-item">
+                    <div class="item-header">
+                        <div class="item-title">Shopify Embedded App Developer</div>
+                        <div class="item-date">Sep 2024 - Present</div>
+                    </div>
+                    <div class="item-subtitle">vify.io</div>
+                    <div class="item-description">
+                        <ul>
+                            <li>ETL data from Shopify online shops to local database (PostgreSQL)</li>
+                            <li>Build custom AI chatbots for Shopify store owner using OpenAI API, LangChain, and
+                                ChromaDB.
+                            </li>
+                            <li>Develop, maintain and fix bugs for Shopify Invoice app.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <div class="item-header">
+                        <div class="item-title">Magento Developer</div>
+                        <div class="item-date">Jun 2022 - Aug 2024</div>
+                    </div>
+                    <div class="item-subtitle">Damda Korea</div>
+                    <div class="item-description">
+                        <ul>
+                            <li>Join a team to build a multi-vendor marketplace website based on Magento 2.</li>
+                            <li>Developed seller/supplier pages, cross-border tax calculation, and Stripe integration.
+                            </li>
+                            <li>Handled seller commissions, shipping methods, and reward points systems.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="item-header">
+                        <div class="item-title">Quantitative Python Developer</div>
+                        <div class="item-date">Jan 2022 - Jun 2022</div>
+                    </div>
+                    <div class="item-subtitle">AIAI Coffee</div>
+                    <div class="item-description">
+                        <ul>
+                            <li>Crawled stock history data from SSI & VNDirect; visualized data using Matplotlib &
+                                Seaborn.</li>
+                            <li>Developed technical indicators (SMA, Bollinger Bands, MACD) for trading analysis.</li>
+                            <li>Researched and coded quantitative trading strategies using Python.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="item-header">
+                        <div class="item-title">Magento Developer</div>
+                        <div class="item-date">Jun 2020 - Dec 2021</div>
+                    </div>
+                    <div class="item-subtitle">Endertech</div>
+                    <div class="item-description">
+                        <ul>
+                            <li>Participated in multiple outsource projects: bug fixing, feature building, and
+                                optimization.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <div class="item-header">
+                        <div class="item-title">Magento Developer</div>
+                        <div class="item-date">Mar 2019 - Aug 2019</div>
+                    </div>
+                    <div class="item-subtitle">Fsoft(Onsite)</div>
+                    <div class="item-description">
+                        <ul>
+                            <li>Join a team to build a new e-commerce platform based on Magento 2.</li>
+                            <li>Migrate products, customer, order, promotion from an old system to Magento 2.</li>
+                            <li>Write API for other services(such mobile app and ERP system) connect to website.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <div class="item-header">
+                        <div class="item-title">Magento Developer</div>
+                        <div class="item-date">Oct 2017 - Jun 2018</div>
+                    </div>
+                    <div class="item-subtitle">Canifa.vn & Onoff.vn(Onsite)</div>
+                    <div class="item-description">
+                        <ul>
+                            <li>Maintain and scale website on AWS.</li>
+                            <li>Develop new modules for integrating Vietnamese payments & shipping, integration SMS.
+                            </li>
+                            <li>Customize features for promotions, email marketing, and customer management.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <div class="item-header">
+                        <div class="item-title">Magento Developer</div>
+                        <div class="item-date">Jun 2013 - Mar 2019</div>
+                    </div>
+                    <div class="item-subtitle">Magestore.com</div>
+                    <div class="item-description">
+                        <ul>
+                            <li>Key member of the Product team building ERP Inventory Management and WebPOS extensions.
+                            </li>
+                            <li>Led the Implementation team for project launching, customization and support.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <div class="item-header">
+                        <div class="item-title">Web Developer</div>
+                        <div class="item-date">Jun 2012 - Mar 2013</div>
+                    </div>
+                    <div class="item-subtitle">A.N.Lab JSC Vietnam</div>
+                    <div class="item-description">
+                        <ul>
+                            <li>Join a team to build a new social network based on JP customer requirements for a
+                                private social network - linkapp.jp.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h3 class="section-title"><i class="fas fa-code-branch"></i> Projects</h3>
+
+                <div class="project-item">
+                    <div class="item-header">
+                        <div class="item-title">TempusOnePs</div>
+                        <div class="item-date">2025</div>
+                    </div>
+                    <div class="item-description">
+                        <p>Modular, Connectable, and Scalable Quant & Algo Trading System for VN Stocks</p>
+                        <p>https://github.com/zuongthaotn/TempusOnePs</p>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="item-header">
+                        <div class="item-title">Stock Analytics</div>
+                        <div class="item-date">2024 - 2025</div>
+                    </div>
+                    <div class="item-description">
+                        <p>Jupyter notebooks for Stock Analytics.</p>
+                        <p>https://github.com/zuongthaotn/phantich-chungkhoan</p>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="item-header">
+                        <div class="item-title">Stock AI prediction</div>
+                        <div class="item-date">2024 - 2025</div>
+                    </div>
+                    <div class="item-description">
+                        <p>AI prediction for VNindex stocks.</p>
+                        <p>https://github.com/zuongthaotn/ai-chungkhoan</p>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="item-header">
+                        <div class="item-title">Magento 2 Module Creator</div>
+                        <div class="item-date">2024</div>
+                    </div>
+                    <div class="item-description">
+                        <p>CLI tool for creating magento 2 module.</p>
+                        <p>https://github.com/zuongthaotn/mage2-module-creator</p>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="item-header">
+                        <div class="item-title">Magento 2 Docker</div>
+                        <div class="item-date">2024</div>
+                    </div>
+                    <div class="item-description">
+                        <p>Docker for magento 2. Easy to set up.</p>
+                        <p>https://github.com/zuongthaotn/magento2-docker</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h3 class="section-title"><i class="fas fa-graduation-cap"></i> Education</h3>
+
+                <div class="education-item">
+                    <div class="item-header">
+                        <div class="item-title">Bachelor of Information Technology</div>
+                        <div class="item-date">2008 - 2012</div>
+                    </div>
+                    <div class="item-subtitle">VNU University of Engineering and Technology (VNU-UET)</div>
+                </div>
+            </section>
+
+        </main>
     </div>
-</div>
-<footer class="pt-4 pb-4 text-muted text-center d-print-none">
-    <div class="container">
-        <div class="text-small">
-            <div class="mb-1">&copy;Zuongthao Resume. All rights reserved.</div>
-        </div>
-    </div>
-</footer>
-<script src="scripts/mdb.min.js?ver=1.2.1"></script>
-<script src="scripts/aos.js?ver=1.2.1"></script>
-<script src="scripts/main.js?ver=1.2.1"></script>
+
+    <script src="scripts/cv.js"></script>
 </body>
+
 </html>
