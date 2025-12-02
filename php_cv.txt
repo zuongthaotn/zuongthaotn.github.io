@@ -1,0 +1,197 @@
+Thao Dương
+Magento 2 Developer
+
+ zuongthao.tn@gmail.com
+
+ 0988861203
+
+ 21 Le Van Luong, Thanh Xuan, Ha Noi, Viet Nam
+
+EDUCATION
+The VNU University of
+Engineering and Technology
+(VNU-UET)
+
+Major: Information Techonogy
+
+08/2008 - 06/2012
+
+MAGENTO EXPERIENCES
+Install new Magento 2 websites(using some of: Nginx, PHP, Mysql, php-fpm, Redis, Varnish, Sphinx Search,
+Elasticsearch, Docker, Git, RabbitMQ, ...)
+Customize(adding, hidden, removing) fields in checkout page.
+Build new payment method (WeChatPay) with auto invoice & credit memo.
+Working(install, config, customize) with some payment extensions (Stripe, Paypal, Skrill, Authorize.net, Braintree)
+Build marketplace extension (Dashboard, Shipping Configuration, Seller homepage FE)
+Build local offline shipping method.
+Build new shipping method & connect to carrier via API.
+Install theme & extensions (Both using package or Composer)
+Create auto backup and upload backup zip file to amazon S3 bucket.
+Create GraphQL API and work with frontend team(React) to solve PWA problem.
+Migrate data (category, CMS page, CMS block, email templates, products)
+R&D Social Login API (fb, twitter, google, ...) and customize or fix bugs.
+Create Magento cronjob for doing schedules.
+Migrating from Magento 1 to Magento 2.
+Building new module Magestore Inventory Management & webPOS
+Maintenance and scaling website on AWS.
+Optimize and increase page speed website(GTmetrix and google pagespeed insight)GTmetrix up to 85 score.
+Google pagespeed insight up to 80 score for version desktop & 70 for mobile.
+Build ajax loading for product listing pagge.
+Lazy loading for images, css & js.
+Upgrade version magento 2 CE.
+Moving website, remove no-used extensions.
+Ensuring Magento security by applying patches, updates, and implementing best practices to prevent
+vulnerabilities.
+Setting up and configuring Magento stores, including product catalogs, categories, and payment gateway
+integrations.
+Managing data migration projects to transfer existing data from other e-commerce platforms to Magento.
+Providing technical support and troubleshooting for Magento-related issues to clients or internal teams.
+Collaborating with front-end developers to ensure seamless integration of UI/UX elements with Magento's
+backend.
+Conducting code reviews and maintaining version control to ensure high-quality code and to track changes over
+time.
+Participating in project planning and estimation, providing technical insights for e-commerce solutions.
+Improved SEO by optimizing URLs, titles, descriptions and alt tags on all images in the store.
+Implemented Google Analytics tracking code.
+Involve in completing Life Cycle including Analysis, Design, Development and Testing.
+Provide clients with solutions and suggestions for e-commerce website development.
+
+MAGENTO PROJECTS
+mika-xxx.com
+mobelaris.com
+accesscontrolproducts.com
+practicalqualitysystems.com
+pwablog-m2.com
+rarecollectiblestv.com
+mika-xxx.com
+ohmyp-xxx.com
+ideontoy-xxx.com.au
+mrpet-xxx.ca
+nlg-xxx.co.uk
+surf-xxx.ch
+redv-xxx.com
+pinkcara-xxx.com
+electro-xxx.com
+damda.kr
+SKILLS:
+Industry Knowledge: eCommerce, Magento, MySQL, HTML, CSS, JavaScript
+Technical Skills: PHP, Linux, Apache, JavaScript, JQuery, AJAX, HTML, CSS, SQL, MySQL, PHPMyAdmin,
+Magento 2, Python, API
+Workflow skills: Trello, Jira, Slack, Docker, Git
+Soft Skills: Communication, Problem-Solving, Teamwork, Self Motivation, Self-Learning, Time Management,
+Multitasking
+
+WORKING TIMELINE
+Damda Korea
+
+Magento Developer
+
+06/2022 - 08/2024
+
+- Join a team to build market place website based on Magento 2 for multi
+vendor selling products.
+Build seller page, supplier page, calculation cross border tax, creating product
+page, product view page, cart page, checkout page. Handle seller commission,
+shipping method, integration Stripe, seller payout, reward points.
+
+AIAI coffee
+
+Quantitative Python Developer
+
+01/2022 - 06/2022
+
+- Research & coding quantitative strategies by using python.
+
+Endertech
+
+Magento Developer
+
+06/2020 - 12/2021
+
+- Join many outsource projects & many task types (fixing bug, building website,
+building new features, optimize website, ...)
+
+Mage-World.com
+
+Magento Developer
+
+03/2019 - 04/2020
+
+- Join many outsource projects & many task types (fixing bug, building website,
+building new features, optimize website, ...)
+
+Magestore.com
+
+Magento Developer
+
+06/2013 - 03/2019
+
+- Join in the Product team to build and update key Magento products of
+Magestore:Inventory, WebPOS
+- Join technical support team. Help customer solving issue with Magestore
+extensions.
+- Lead and manage the Implement team which is specialized in launching the
+projects.
+- Consult the technical solution for the customization projects.
+
+A.N.Lab JSC Vietnam
+
+Web Developer
+
+06/2012 - 03/2013
+
+- Join in the site building projects based on JP customer requirements for a
+private social network - linkapp.jp
+- Perform web site tests according to planned schedules.
+
+Peacesoft Vietnam
+
+Technical Intern
+
+06/2011 - 02/2012
+
+- Join in on-going projects of the company, work mainly on front-end tasks
+- Participating in different Product teams for building News websites.
+
+ON-SITE ACTIVITIES
+Fsoft VietNam
+
+Magento Developer
+
+3/2019 - 08/2019
+
+- Make team for building an E-commerce website and services.
+- Develop new modules for integrating payments & shipping.
+- Customization features for promotions and PR.
+- Integrating products, customer, order, promotion from a local system.
+- Writing API for other services connect to website.
+
+Onoff.vn
+
+Magento Developer
+
+03/2018 - 06/2018
+
+- Make team for building fashion E-commerce website and services.
+- Organize & manage teams on Customization & Other services.
+- Maintenance and scaling website on AWS.
+- Develop new modules for integrating Vietnamese payments & shipping.
+- Customization features for promotions and PR.
+
+Canifa.vn
+
+Magento Developer & Technical Leader
+
+10/2017 - 03/2018
+
+- Make team for building fashion E-commerce website and services.
+- Organize & manage teams on Customization & Other services.
+- Maintenance and scaling website on AWS(Working with EC2, ELB, S3, RDS,
+Lambda, CloudFront)
+- Develop new modules for integrating Vietnamese payments & shipping.
+Integration SMS.
+- Customization features for promotions and PR.
+
+© topcv.vn
+
+
