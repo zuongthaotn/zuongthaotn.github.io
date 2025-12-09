@@ -1,0 +1,292 @@
+/* ==========================================
+   MINIMAL PORTFOLIO CSS
+   ========================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-outer: #f1f1f1;
+    --bg-box: #ffffff;
+    --text: #000000;
+    --text-muted: #666666;
+    --border: #cccccc;
+    --link: #0000ee;
+    --link-hover: #551a8b;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+    background-color: var(--bg-outer);
+    color: var(--text);
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+/* ==========================================
+   LAYOUT
+   ========================================== */
+
+.section {
+    margin-bottom: 40px;
+    scroll-margin-top: 70px;
+}
+
+.section-content {
+    background-color: var(--bg-box);
+    border: 1px solid var(--border);
+    padding: 30px;
+}
+
+/* ==========================================
+   HEADER
+   ========================================== */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--bg-box);
+    border-bottom: 1px solid var(--border);
+    padding: 15px 0;
+    z-index: 1000;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 70px 20px 20px 20px;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav-link {
+    color: var(--link);
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* ==========================================
+   TYPOGRAPHY
+   ========================================== */
+
+.main-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.title-prefix {
+    color: var(--text-muted);
+}
+
+.subtitle {
+    font-size: 14px;
+    color: var(--text-muted);
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 10px;
+}
+
+.description {
+    margin-bottom: 20px;
+}
+
+code {
+    background-color: var(--bg-outer);
+    padding: 2px 4px;
+    font-size: 13px;
+}
+
+/* ==========================================
+   OVERVIEW
+   ========================================== */
+
+.skills-container {
+    margin: 20px 0;
+}
+
+.skills-list {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.skills-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid var(--bg-outer);
+}
+
+.skills-list li:last-child {
+    border-bottom: none;
+}
+
+.cta-container {
+    margin-top: 30px;
+    text-align: right;
+}
+
+/* ==========================================
+   BUTTON
+   ========================================== */
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid var(--border);
+    background-color: var(--bg-box);
+    color: var(--text);
+}
+
+.btn:hover {
+    background-color: var(--bg-outer);
+}
+
+.btn-icon {
+    margin-right: 5px;
+}
+
+/* ==========================================
+   CONTACT
+   ========================================== */
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.contact-item {
+    padding: 15px;
+    border: 1px solid var(--border);
+}
+
+.contact-icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-label {
+    font-size: 12px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.contact-link {
+    color: var(--link);
+    text-decoration: none;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+/* ==========================================
+   TABLES
+   ========================================== */
+
+.table-container {
+    overflow-x: auto;
+    border: 1px solid var(--border);
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.data-table th {
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 2px solid var(--border);
+    background-color: var(--bg-outer);
+}
+
+.data-table td {
+    padding: 10px;
+    border-bottom: 1px solid var(--border);
+}
+
+.data-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.data-table tbody tr:hover {
+    background-color: var(--bg-outer);
+}
+
+.table-link {
+    color: var(--link);
+    text-decoration: none;
+}
+
+.table-link:hover {
+    text-decoration: underline;
+}
+
+/* ==========================================
+   FOOTER
+   ========================================== */
+
+.footer {
+    text-align: center;
+    padding: 30px 0;
+    border-top: 1px solid var(--border);
+    margin-top: 40px;
+}
+
+.footer-text {
+    color: var(--text-muted);
+    font-size: 12px;
+}
+
+/* ==========================================
+   RESPONSIVE
+   ========================================== */
+
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    .section-content {
+        padding: 20px;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .data-table {
+        font-size: 12px;
+    }
+
+    .data-table th,
+    .data-table td {
+        padding: 8px;
+    }
+}

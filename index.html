@@ -4,410 +4,239 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zuong Thao - Curriculum Vitae</title>
-    <meta name="description" content="Professional Resume of Zuong Thao">
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="css/cv.css">
+    <title>Portfolio | Zuong Thao</title>
+    <meta name="description" content="Portfolio of Zuong Thao - Developer, Software Engineer">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
+    <div class="container">
+        <!-- Header/Navigation -->
+        <header class="header">
+            <nav class="nav">
+                <a href="#overview" class="nav-link">Overview</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#certificates" class="nav-link">Certificates</a>
+            </nav>
+        </header>
 
-    <!-- Controls -->
-    <div class="controls">
-        <button class="btn btn-secondary" id="themeToggle" title="Toggle Theme">
-            <i class="fas fa-moon"></i>
-        </button>
-        <button class="btn" id="downloadBtn">
-            <i class="fas fa-download"></i> Download CV
-        </button>
+        <!-- Section 1: Overview -->
+        <section id="overview" class="section overview-section">
+            <div class="section-content">
+                <h1 class="main-title">
+                    <span class="title-prefix">#</span> Zuong Thao
+                </h1>
+                <p class="subtitle">Software Engineer | Data Analytics Engineer | Quantitative Trader</p>
+
+                <div class="overview-content">
+                    <p class="description">
+                        Experienced Backend Developer with over 12 years in software development, expert in Magento 2
+                        ecosystem and PHP.
+                        Recently expanded expertise into Data Analytics Engineering, specializing in building ETL
+                        pipelines,
+                        Data Warehousing, and Machine Learning.
+                        Proven ability to deliver scalable e-commerce solutions and data-driven insights.
+                    </p>
+                    <div class="cta-container">
+                        <a href="cv.html" class="btn btn-primary table-link">
+                            <span class="btn-icon">📄</span>
+                            View CV
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Contact Information -->
+        <section id="contact" class="section contact-section">
+            <div class="section-content">
+                <h2 class="section-title">
+                    <span class="title-prefix">##</span> Contact Information
+                </h2>
+
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <h3 class="contact-label">Email</h3>
+                            <a href="mailto:zuongthao.tn@gmail.com" class="contact-link">
+                                zuongthao.tn@gmail.com
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-details">
+                            <h3 class="contact-label">Phone</h3>
+                            <a href="tel:+84988861000" class="contact-link">
+                                +84 988 861 ***
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">🔗</div>
+                        <div class="contact-details">
+                            <h3 class="contact-label">GitHub</h3>
+                            <a href="https://github.com/zuongthaotn" target="_blank" class="contact-link">
+                                github.com/zuongthaotn
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">💼</div>
+                        <div class="contact-details">
+                            <h3 class="contact-label">LinkedIn</h3>
+                            <a href="https://linkedin.com/in/zuong-thao" target="_blank" class="contact-link">
+                                linkedin.com/in/zuong-thao
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Projects -->
+        <section id="projects" class="section projects-section">
+            <div class="section-content">
+                <h2 class="section-title">
+                    <span class="title-prefix">##</span> Projects
+                </h2>
+
+                <div class="table-container">
+                    <table class="data-table" id="projects-table">
+                        <thead>
+                            <tr>
+                                <th>No.</th>
+                                <th>Project Name</th>
+                                <th>Description</th>
+                                <th>Tech stacks</th>
+                                <th>Link</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td><strong>TempusOnePs</strong></td>
+                                <td>Modular, Connectable, and Scalable Quant & Algo Trading System for VN Stocks</td>
+                                <td>Python</td>
+                                <td><a href="https://github.com/zuongthaotn/TempusOnePs" target="_blank"
+                                        class="table-link">View →</a></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td><strong>Gloryapps - UI Flyer Builder</strong></td>
+                                <td>A saas application built by Laravel for Shopify store owner to build popups,
+                                    banners, and announcements</td>
+                                <td>Laravel, Shopify</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td><strong>PepperAI - Smart AI assistant</strong></td>
+                                <td>A saas application built by Laravel - Smart AI assistant for merchants (Closed)</td>
+                                <td>Laravel, OpenAI API, Shopify, Google Gemini API, Langchain, Huggingface,ChromaDB,
+                                    FastAPI, Golang
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td><strong>AI Stock Prediction</strong></td>
+                                <td>AI prediction for VNindex stocks</td>
+                                <td>Python(Pandas, Numpy, Scikit-learn, Matplotlib, Xgboost)</td>
+                                <td><a href="https://github.com/zuongthaotn/ai-chungkhoan" target="_blank"
+                                        class="table-link">View →</a></td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td><strong>Stock(VNIndex) Analytics</strong></td>
+                                <td>ETL stock data from SSI, Vndirect, DNSE, VPSecurity and analytics for insights</td>
+                                <td>Python, Pandas, Matplotlib, Seaborn</td>
+                                <td><a href="https://github.com/zuongthaotn/phantich-chungkhoan" target="_blank"
+                                        class="table-link">View →</a></td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td><strong>E-commerce Analytics Pipeline</strong></td>
+                                <td>ETL pipeline for e-commerce data with BigQuery, Spark, and ML for revenue prediction
+                                </td>
+                                <td>Airflow, Spark, BigQuery, MySQL</td>
+                                <td><a href="https://github.com/zuongthaotn/dae-test-projects/tree/master/Airflow-for-Magento2"
+                                        target="_blank" class="table-link">View →</a></td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td><strong>Magento 2 Module Creator</strong></td>
+                                <td>CLI tool for creating magento 2 module</td>
+                                <td>Python, PHP</td>
+                                <td><a href="https://github.com/zuongthaotn/mage2-module-creator" target="_blank"
+                                        class="table-link">View →</a></td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td><strong>Magento 2 Docker</strong></td>
+                                <td>Docker for magento 2. Easy to set up</td>
+                                <td>Docker, Magento 2, MySQL</td>
+                                <td><a href="https://github.com/zuongthaotn/magento2-docker" target="_blank"
+                                        class="table-link">View →</a></td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td><strong>Magento 2 Advanced Reports</strong></td>
+                                <td>Module for magento 2 to generate advanced reports & dashboard for customers, orders,
+                                    and products</td>
+                                <td>MySQL, Magento 2, Chart.js</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Certificates -->
+        <section id="certificates" class="section certificates-section">
+            <div class="section-content">
+                <h2 class="section-title">
+                    <span class="title-prefix">##</span> Certificates
+                </h2>
+
+                <div class="table-container">
+                    <table class="data-table" id="certificates-table">
+                        <thead>
+                            <tr>
+                                <th>No.</th>
+                                <th>Certificate Name</th>
+                                <th>Link</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td><strong>HackerRank - (SQL, Python, API)</strong></td>
+                                <td><a href="https://www.hackerrank.com/certificates/e29ebbf4f40d" target="_blank"
+                                        class="table-link">View →</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p class="footer-text">
+                <code>© 2025 Zuong Thao. Built with ❤️</code>
+            </p>
+        </footer>
     </div>
 
-    <!-- Resume Content -->
-    <div class="resume-container" id="resume">
-
-        <!-- Sidebar -->
-        <aside class="sidebar">
-            <img src="images/avatar.jpg" alt="Zuong Thao" class="profile-img">
-
-            <div class="sidebar-section">
-                <h3 class="sidebar-title">Contact</h3>
-                <div class="contact-item">
-                    <i class="fas fa-envelope"></i>
-                    <a href="mailto:zuongthao.tn@gmail.com">zuongthao.tn@gmail.com</a>
-                </div>
-                <div class="contact-item">
-                    <i class="fas fa-phone"></i>
-                    <a href="#">+84 988 861 203</a>
-                </div>
-                <div class="contact-item">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <span>Hanoi, Vietnam</span>
-                </div>
-                <div class="contact-item">
-                    <i class="fas fa-calendar"></i>
-                    <span>Age: 35 (1990)</span>
-                </div>
-                <div class="contact-item">
-                    <i class="fab fa-linkedin"></i>
-                    <a href="https://www.linkedin.com/in/zuong-thao/">linkedin.com/in/zuong-thao</a>
-                </div>
-                <div class="contact-item">
-                    <i class="fab fa-github"></i>
-                    <a href="https://github.com/zuongthaotn">github.com/zuongthaotn</a>
-                </div>
-            </div>
-
-            <div class="sidebar-section">
-                <h3 class="sidebar-title">Technical Skills</h3>
-                <div class="skills-list">
-                    <span class="skill-tag">Python (Pandas, Numpy, scrapy)</span>
-                    <span class="skill-tag">Data Engineering (ETL, Airflow, DBT)</span>
-                    <span class="skill-tag">Big Data (Spark, BigQuery)</span>
-                    <span class="skill-tag">Machine Learning (Scikit-learn, XGBoost)</span>
-                    <span class="skill-tag">PHP (Magento 2, Laravel)</span>
-                    <span class="skill-tag">Database(MySQL, Postgres, MongoDB)</span>
-                    <span class="skill-tag">AWS (EC2, S3, EBS)</span>
-                    <span class="skill-tag">Environment (Docker, Ubuntu Apache, Nginx, Vanish, Redis,
-                        Elasticsearch, RabbitMQ)</span>
-                    <span class="skill-tag">Visualization (PowerBI, Matplotlib, seaborn, plotly)</span>
-                    <span class="skill-tag">Workflow skills(Trello, Jira, Slack, Git)</span>
-                </div>
-            </div>
-
-            <div class="sidebar-section">
-                <h3 class="sidebar-title">Languages</h3>
-                <div class="language-item">
-                    <span>Vietnamese</span>
-                    <span>Native</span>
-                </div>
-                <div class="language-item">
-                    <span>English</span>
-                    <span>Intermediate</span>
-                </div>
-            </div>
-
-            <div class="sidebar-section">
-                <h3 class="sidebar-title">Certifications</h3>
-                <div class="item-description">
-                    <p><strong>HackerRank Certificates</strong><br>SQL, Python, API<br><a
-                            href="https://www.hackerrank.com/certificates/e29ebbf4f40d" style="color: inherit;">View
-                            Certificate</a></p>
-                </div>
-            </div>
-        </aside>
-
-        <!-- Main Content -->
-        <main class="main-content">
-            <header class="header">
-                <h1 class="name">Dương Thao</h1>
-                <h2 class="title">Magento Developer, Data Analytics Engineer & Quantitative Trader</h2>
-            </header>
-
-            <section class="section">
-                <h3 class="section-title"><i class="fas fa-user"></i> Profile</h3>
-                <p>Experienced Backend Developer with over 12 years in software development, expert in Magento 2
-                    ecosystem and PHP.
-                    Recently expanded expertise into Data Analytics Engineering, specializing in building ETL pipelines,
-                    Data Warehousing (BigQuery), and Machine Learning.
-                    Proven ability to deliver scalable e-commerce solutions and data-driven insights.</p>
-            </section>
-
-            <section class="section">
-                <h3 class="section-title"><i class="fas fa-briefcase"></i> Experience</h3>
-                <div class="experience-item">
-                    <div class="item-header">
-                        <div class="item-title">Shopify Embedded App Developer</div>
-                        <div class="item-date">Sep 2024 - Present</div>
-                    </div>
-                    <div class="item-subtitle">vify.io</div>
-                    <div class="item-description">
-                        <ul>
-                            <li>ETL data from Shopify online shops to local database (PostgreSQL)</li>
-                            <li>Build custom AI chatbots for Shopify store owner using OpenAI API, LangChain, and
-                                ChromaDB.
-                            </li>
-                            <li>Develop, maintain and fix bugs for Shopify Invoice app.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="experience-item">
-                    <div class="item-header">
-                        <div class="item-title">Freelance Developer</div>
-                        <div class="item-date">Sep 2022 - Present</div>
-                    </div>
-                    <div class="item-subtitle">fiverr</div>
-                    <div class="item-description">
-                        <ul>
-                            <li>Build ETL pipelines using Python</li>
-                            <li>Crawl data from any websites</li>
-                            <li>Develop, migrate, maintain and fix bugs for Magento websites.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="experience-item">
-                    <div class="item-header">
-                        <div class="item-title">Magento Developer</div>
-                        <div class="item-date">Jun 2022 - Aug 2024</div>
-                    </div>
-                    <div class="item-subtitle">Damda Korea</div>
-                    <div class="item-description">
-                        <ul>
-                            <li>Join a team to build a multi-vendor marketplace website based on Magento 2.</li>
-                            <li>Developed seller/supplier pages, cross-border tax calculation, and Stripe integration.
-                            </li>
-                            <li>Handled seller commissions, shipping methods, and reward points systems.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="experience-item">
-                    <div class="item-header">
-                        <div class="item-title">Quantitative Python Developer</div>
-                        <div class="item-date">Jan 2022 - Jun 2022</div>
-                    </div>
-                    <div class="item-subtitle">AIAI Coffee</div>
-                    <div class="item-description">
-                        <ul>
-                            <li>Crawled stock history data from SSI & VNDirect; visualized data using Matplotlib &
-                                Seaborn.</li>
-                            <li>Developed technical indicators (SMA, Bollinger Bands, MACD) for trading analysis.</li>
-                            <li>Researched and coded quantitative trading strategies using Python.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="experience-item">
-                    <div class="item-header">
-                        <div class="item-title">Magento Developer</div>
-                        <div class="item-date">Jun 2020 - Dec 2021</div>
-                    </div>
-                    <div class="item-subtitle">Endertech</div>
-                    <div class="item-description">
-                        <ul>
-                            <li>Participated in multiple outsource projects: bug fixing, feature building, and
-                                optimization.</li>
-                            <li>Build a new theme for Magento 2.</li>
-                            <li>Migrate products, customer, order, promotion from an old system to Magento 2.</li>
-                            <li>Apply a Magento 2 security patch.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="experience-item">
-                    <div class="item-header">
-                        <div class="item-title">Magento Developer</div>
-                        <div class="item-date">Mar 2019 - Aug 2019</div>
-                    </div>
-                    <div class="item-subtitle">Fsoft(Onsite)</div>
-                    <div class="item-description">
-                        <ul>
-                            <li>Join a team to build a new e-commerce platform based on Magento 2.</li>
-                            <li>Migrate products, customer, order, promotion from an old system to Magento 2.</li>
-                            <li>Write API for other services(such mobile app and ERP system) connect to website.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="experience-item">
-                    <div class="item-header">
-                        <div class="item-title">Magento Developer</div>
-                        <div class="item-date">Oct 2017 - Jun 2018</div>
-                    </div>
-                    <div class="item-subtitle">Canifa.vn & Onoff.vn(Onsite)</div>
-                    <div class="item-description">
-                        <ul>
-                            <li>Maintain and scale website on AWS.</li>
-                            <li>Develop new modules for integrating Vietnamese payments & shipping, integration SMS.
-                            </li>
-                            <li>Customize features for promotions, email marketing, and customer management.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="experience-item">
-                    <div class="item-header">
-                        <div class="item-title">Magento Developer</div>
-                        <div class="item-date">Jun 2013 - Mar 2019</div>
-                    </div>
-                    <div class="item-subtitle">Magestore.com</div>
-                    <div class="item-description">
-                        <ul>
-                            <li>Key member of the Product team building ERP Inventory Management and WebPOS extensions.
-                            </li>
-                            <li>Led the Implementation team for project launching, customization and support.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="experience-item">
-                    <div class="item-header">
-                        <div class="item-title">Web Developer</div>
-                        <div class="item-date">Jun 2012 - Mar 2013</div>
-                    </div>
-                    <div class="item-subtitle">A.N.Lab JSC Vietnam</div>
-                    <div class="item-description">
-                        <ul>
-                            <li>Join a team to build a new social network based on JP customer requirements for a
-                                private social network - linkapp.jp.</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <section class="section">
-                <h3 class="section-title"><i class="fas fa-code-branch"></i> Projects</h3>
-
-                <div class="project-item">
-                    <div class="item-header">
-                        <div class="item-title">TempusOnePs</div>
-                        <div class="item-date">2025</div>
-                    </div>
-                    <div class="item-description">
-                        <p>Modular, Connectable, and Scalable Quant & Algo Trading System for VN Stocks</p>
-                        <p>https://github.com/zuongthaotn/TempusOnePs</p>
-                    </div>
-                </div>
-                <div class="project-item">
-                    <div class="item-header">
-                        <div class="item-title">Gloryapps - UI Flyer Builder</div>
-                        <div class="item-date">2025</div>
-                    </div>
-                    <div class="item-description">
-                        <p>A saas application built by Laravel for Shopify store owner to build popups, banners, and
-                            announcements for their sites.</p>
-                        <p>https://glorypopup.store/</p>
-                    </div>
-                </div>
-                <div class="project-item">
-                    <div class="item-header">
-                        <div class="item-title">PepperAI - Smart AI assistant</div>
-                        <div class="item-date">2025(Closed)</div>
-                    </div>
-                    <div class="item-description">
-                        <p>A saas application built by Laravel and named as PepperAI - Smart AI assistant for merchants
-                        </p>
-                        <p>https://pepperai.online/</p>
-                    </div>
-                </div>
-                <div class="project-item">
-                    <div class="item-header">
-                        <div class="item-title">AI Stock Prediction</div>
-                        <div class="item-date">2024 - 2025</div>
-                    </div>
-                    <div class="item-description">
-                        <p>AI prediction for VNindex stocks.</p>
-                        <p>https://github.com/zuongthaotn/ai-chungkhoan</p>
-                    </div>
-                </div>
-                <div class="project-item">
-                    <div class="item-header">
-                        <div class="item-title">Stock(VNIndex) Analytics</div>
-                        <div class="item-date">2024 - 2025</div>
-                    </div>
-                    <div class="item-description">
-                        <p>Requirements:</p>
-                        <ul>
-                            <li>Crawl(Extract) stock data(derivative) from SSI, Vndirect, DNSE, VPSecurity</li>
-                            <li>Transform data by using tecnhnical indicators</li>
-                            <li>Analytics data for find insight and signal.</li>
-                        </ul>
-                        <p>Tech stacks:</p>
-                        <ul>
-                            <li>ETL data: python</li>
-                            <li>Processing: pandas, pandas-ta, numpy</li>
-                            <li>Visualization: jupyter notebook</li>
-                            <li>Storage: csv</li>
-                        </ul>
-                        <p>https://github.com/zuongthaotn/phantich-chungkhoan</p>
-                    </div>
-                </div>
-                <div class="project-item">
-                    <div class="item-header">
-                        <div class="item-title">E-commerce Analytics Pipeline</div>
-                        <div class="item-date">2024 - 2025</div>
-                    </div>
-                    <div class="item-description">
-                        <p>Requirements:</p>
-                        <ul>
-                            <li>Backup database daily and storage in datalake.</li>
-                            <li>ETL data from online store to data warehouse(daily)</li>
-                            <li>Analytics data for analysis sales performance & predict revenue</li>
-                        </ul>
-                        <p>Tech stacks:</p>
-                        <ul>
-                            <li>ETL data: Airflow, python</li>
-                            <li>Storage: MySQL, GoogleBigQuery</li>
-                            <li>Processing: Apache Spark, PySpark</li>
-                            <li>Visualization: powerBI, jupyter notebook</li>
-                            <li>Machine Learning: sklearn, xgboost.</li>
-                        </ul>
-                        <p>https://github.com/zuongthaotn/dae-test-projects/tree/master/Airflow-for-Magento2</p>
-                    </div>
-                </div>
-                <div class="project-item">
-                    <div class="item-header">
-                        <div class="item-title">Magento 2 Module Creator</div>
-                        <div class="item-date">2024</div>
-                    </div>
-                    <div class="item-description">
-                        <p>CLI tool for creating magento 2 module.</p>
-                        <p>https://github.com/zuongthaotn/mage2-module-creator</p>
-                    </div>
-                </div>
-                <div class="project-item">
-                    <div class="item-header">
-                        <div class="item-title">Magento 2 Docker</div>
-                        <div class="item-date">2024</div>
-                    </div>
-                    <div class="item-description">
-                        <p>Docker for magento 2. Easy to set up.</p>
-                        <p>https://github.com/zuongthaotn/magento2-docker</p>
-                    </div>
-                </div>
-                <div class="project-item">
-                    <div class="item-header">
-                        <div class="item-title">Magento 2 Advanced Reports extension</div>
-                        <div class="item-date">2023</div>
-                    </div>
-                    <div class="item-description">
-                        <p>Requirements:</p>
-                        <ul>
-                            <li>Build a module for magento 2 to generate advanced reports & dashboard.</li>
-                            <li>Customer reports: new customers, repeat customers, customers by region, customers by
-                                source</li>
-                            <li>Order reports: revenue by time, order by coupon code, refund by promotion, time delivery
-                                by carrier, order by status, order by payment method, order by customer group
-                            </li>
-                            <li>Product reports: best seller products, most viewed products, most added to cart
-                                products, most added to wishlist products, most refunded products, low stock products,
-                                out of stock products</li>
-                        </ul>
-                        <p>Tech stacks:</p>
-                        <ul>
-                            <li>Framework: Magento 2</li>
-                            <li>Storage: MySQL</li>
-                            <li>Languages: PHP, knockoutjs, Chart.js</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <section class="section">
-                <h3 class="section-title"><i class="fas fa-graduation-cap"></i> Education</h3>
-                <div class="education-item">
-                    <div class="item-header">
-                        <div class="item-title">Bachelor of Information Technology</div>
-                        <div class="item-date">2008 - 2012</div>
-                    </div>
-                    <div class="item-subtitle">VNU University of Engineering and Technology (VNU-UET)</div>
-                </div>
-            </section>
-
-        </main>
-    </div>
-
-    <script src="scripts/cv.js"></script>
+    <script src="scripts/index.js"></script>
 </body>
 
 </html>
