@@ -1,0 +1,64 @@
+{
+    "projects": [
+        {
+            "name": "TempusOnePs",
+            "description": "Modular, Connectable, and Scalable Quant & Algo Trading System for VN Stocks",
+            "tech_stacks": "Python",
+            "link": "https://github.com/zuongthaotn/TempusOnePs"
+        },
+        {
+            "name": "Gloryapps - UI Flyer Builder",
+            "description": "A saas application built by Laravel for Shopify store owner to build popups, banners, and announcements",
+            "tech_stacks": "Laravel, Shopify",
+            "link": ""
+        },
+        {
+            "name": "PepperAI - Smart AI assistant",
+            "description": "A saas application built by Laravel - Smart AI assistant for merchants (Closed)",
+            "tech_stacks": "Laravel, OpenAI API, Shopify, Google Gemini API, Langchain, Huggingface, ChromaDB, FastAPI, Golang",
+            "link": ""
+        },
+        {
+            "name": "AI Stock Prediction",
+            "description": "AI prediction for VNindex stocks",
+            "tech_stacks": "Python(Pandas, Numpy, Scikit-learn, Matplotlib, Xgboost)",
+            "link": "https://github.com/zuongthaotn/ai-chungkhoan"
+        },
+        {
+            "name": "Stock(VNIndex) Analytics",
+            "description": "ETL stock data from SSI, Vndirect, DNSE, VPSecurity and analytics for insights",
+            "tech_stacks": "Python, Pandas, Matplotlib, Seaborn",
+            "link": "https://github.com/zuongthaotn/phantich-chungkhoan"
+        },
+        {
+            "name": "E-commerce Analytics Pipeline",
+            "description": "ETL pipeline for e-commerce data with BigQuery, Spark, and ML for revenue prediction",
+            "tech_stacks": "Airflow, Spark, BigQuery, MySQL",
+            "link": "https://github.com/zuongthaotn/dae-test-projects/tree/master/Airflow-for-Magento2"
+        },
+        {
+            "name": "Build Vietnamese corpus",
+            "description": "Build a high-quality corpus for training and fine-tuning a Vietnamese LLM",
+            "tech_stacks": "Python, scrapy",
+            "link": ""
+        },
+        {
+            "name": "Magento 2 Module Creator",
+            "description": "CLI tool for creating magento 2 module",
+            "tech_stacks": "Python, PHP",
+            "link": "https://github.com/zuongthaotn/mage2-module-creator"
+        },
+        {
+            "name": "Magento 2 Docker",
+            "description": "Docker for magento 2. Easy to set up",
+            "tech_stacks": "Docker, Magento 2, MySQL",
+            "link": "https://github.com/zuongthaotn/magento2-docker"
+        },
+        {
+            "name": "Magento 2 Advanced Reports",
+            "description": "Module for magento 2 to generate advanced reports & dashboard for customers, orders, and products",
+            "tech_stacks": "MySQL, Magento 2, Chart.js",
+            "link": ""
+        }
+    ]
+}
