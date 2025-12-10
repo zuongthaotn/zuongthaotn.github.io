@@ -37,9 +37,21 @@
             "link": "https://github.com/zuongthaotn/dae-test-projects/tree/master/Airflow-for-Magento2"
         },
         {
+            "name": "Pixar Films 30-Year Legacy Analytics",
+            "description": "Use data visualization and storytelling to showcase the legacy of Disney Pixar films over time.",
+            "tech_stacks": "MySQL, DBT, Superset, PowerBI",
+            "link": "https://github.com/zuongthaotn/dae-test-projects/tree/master/Maven_Pixar_Challenge"
+        },
+        {
+            "name": "ETL Pipeline from Horse Racing API",
+            "description": "Ingesting all API data into the Big Query including all historical data",
+            "tech_stacks": "Airflow, BigQuery",
+            "link": "https://github.com/zuongthaotn/dae-test-projects/tree/master/HorseRacingAPI"
+        },
+        {
             "name": "Build Vietnamese corpus",
             "description": "Build a high-quality corpus for training and fine-tuning a Vietnamese LLM",
-            "tech_stacks": "Python, scrapy",
+            "tech_stacks": "Python, scrapy, MongoDB, MySQL",
             "link": ""
         },
         {
