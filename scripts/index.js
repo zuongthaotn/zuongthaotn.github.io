@@ -38,7 +38,7 @@ function initSmoothScroll() {
  */
 async function loadProjects() {
     try {
-        const response = await fetch('projects.json');
+        const response = await fetch('source/projects.json');
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }

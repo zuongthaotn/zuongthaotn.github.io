@@ -3,7 +3,7 @@
         {
             "name": "TempusOnePs",
             "description": "Modular, Connectable, and Scalable Quant & Algo Trading System for VN Stocks",
-            "tech_stacks": "Python",
+            "tech_stacks": "Python, InfluxDB, MQTT, MySQL, Laravel, NodeJS, D3.js, Chart.js",
             "link": "https://github.com/zuongthaotn/TempusOnePs"
         },
         {
